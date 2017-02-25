@@ -538,9 +538,6 @@ textarea.form-control {
 	.lang:hover > .lang_menu_sub{
 		transform: translate(50px, -27px);
 	}
-	.cont_prev{
-		margin-top: 0px;
-	}
 }
 /* ---------------------------------------------- /*
  * Our skills
