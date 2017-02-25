@@ -535,6 +535,12 @@ textarea.form-control {
 	.red_car{
 		min-height: 220px;
 	}
+	.lang:hover > .lang_menu_sub{
+		transform: translate(50px, -27px);
+	}
+	.cont_prev{
+		margin-top: 0px;
+	}
 }
 /* ---------------------------------------------- /*
  * Our skills
