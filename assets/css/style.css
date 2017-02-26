@@ -542,7 +542,7 @@ textarea.form-control {
 		transform: translate(50px, -27px);
 	}
 	.cont_prev{
-		margin-top: 0px;
+		margin-top: -60px;
 	}
 }
 /* ---------------------------------------------- /*
@@ -598,14 +598,6 @@ textarea.form-control {
 .map{
 	width: 100%;
 }
-/* ---------------------------------------------- /*
- * Contact
-/* ---------------------------------------------- */
-
-.ajax-response {
-	text-align: center;
-}
-
 /* ---------------------------------------------- /*
  * Footer
 /* ---------------------------------------------- */
@@ -745,7 +737,6 @@ textarea.form-control {
  *Scroll Down
 /* ---------------------------------------------- */
 
-
 .scroll-down span{
     position: relative;
     color: #fff;
@@ -816,7 +807,6 @@ textarea.form-control {
 
 }
 
-
 /*--------------------------------*/
 /***** Catalog *****/
 /*--------------------------------*/
@@ -877,164 +867,6 @@ textarea.form-control {
 	font-weight: normal;
 }
 
-/*---------------*/
-/***** Bubba *****/
-/*---------------*/
-
-figure.effect-bubba {
-	background: #9e5406;
-}
-
-figure.effect-bubba img {
-	opacity: 0.7;
-	-webkit-transition: opacity 0.35s;
-	transition: opacity 0.35s;
-}
-
-figure.effect-bubba:hover img {
-	opacity: 0.4;
-}
-
-figure.effect-bubba figcaption::before,
-figure.effect-bubba figcaption::after {
-	position: absolute;
-	top: 30px;
-	right: 30px;
-	bottom: 30px;
-	left: 30px;
-	content: '';
-	opacity: 0;
-	-webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
-	transition: opacity 0.35s, transform 0.35s;
-}
-
-figure.effect-bubba figcaption::before {
-	border-top: 1px solid #fff;
-	border-bottom: 1px solid #fff;
-	-webkit-transform: scale(0,1);
-	transform: scale(0,1);
-}
-
-figure.effect-bubba figcaption::after {
-	border-right: 1px solid #fff;
-	border-left: 1px solid #fff;
-	-webkit-transform: scale(1,0);
-	transform: scale(1,0);
-}
-
-figure.effect-bubba h2 {
-	padding-top: 10%;
-	-webkit-transition: -webkit-transform 0.35s;
-	transition: transform 0.35s;
-	-webkit-transform: translate3d(0,-20px,0);
-	transform: translate3d(0,-20px,0);
-    color: #fff;
-}
-
-figure.effect-bubba p {
-	padding: 20px 2.5em;
-	opacity: 0;
-	-webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
-	transition: opacity 0.35s, transform 0.35s;
-	-webkit-transform: translate3d(0,20px,0);
-	transform: translate3d(0,20px,0);
-}
-
-figure.effect-bubba:hover figcaption::before,
-figure.effect-bubba:hover figcaption::after {
-	opacity: 1;
-	-webkit-transform: scale(1);
-	transform: scale(1);
-}
-
-figure.effect-bubba:hover h2,
-figure.effect-bubba:hover p {
-	opacity: 1;
-	-webkit-transform: translate3d(0,0,0);
-	transform: translate3d(0,0,0);
-}
-
-/*-----------------------*/
-/***** Quote Rotator *****/
-/*-----------------------*/
-
-.cbp-qtrotator {
-	position: relative;
-	margin: 3em auto 0em auto;
-	max-width: 90%;
-	width: 90%;
-}
-
-.cbp-qtrotator .cbp-qtcontent {
-	position: absolute;
-	min-height: 200px;
-	border-top: 1px solid #f4f4f4;
-	border-bottom: 1px solid #f4f4f4;
-	padding: 2em 0;
-	top: 0;
-	z-index: 0;
-	opacity: 0;
-	width: 100%;
-}
-
-.no-js .cbp-qtrotator .cbp-qtcontent {
-	border-bottom: none;
-}
-
-.cbp-qtrotator .cbp-qtcontent.cbp-qtcurrent,
-.no-js .cbp-qtrotator .cbp-qtcontent {
-	position: relative; 
-	z-index: 100;
-	pointer-events: auto;
-	opacity: 1;
-}
-
-.cbp-qtrotator .cbp-qtcontent:before,
-.cbp-qtrotator .cbp-qtcontent:after {
-	content: " ";
-	display: table;
-}
-
-.cbp-qtrotator .cbp-qtcontent:after {
-	clear: both;
-}
-
-.cbp-qtprogress {
-	position: absolute;
-	background: #FF5252;
-	height: 1px;
-	width: 0%;
-	top: 0;
-	z-index: 1000;
-}
-
-.cbp-qtrotator blockquote {
-	margin: 0;
-	padding: 0;
-    border: 0;
-    font-size: 12px;
-}
-
-.cbp-qtrotator blockquote p {
-	font-size: 2em;
-	color: #888;
-	font-weight: 300;
-	margin: 0.4em 0 1em;
-}
-
-.cbp-qtrotator blockquote footer {
-	font-size: 1.2em;
-}
-
-.cbp-qtrotator blockquote footer:before {
-	content: '― ';
-}
-
-.cbp-qtrotator .cbp-qtcontent img {
-	float: right;
-	margin-left: 3em;
-}
-
 /* Example for media query */
 @media screen and (max-width: 30.6em) { 
 
@@ -1047,4 +879,3 @@ figure.effect-bubba:hover p {
 	}
 
 }
-
