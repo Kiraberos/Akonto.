@@ -530,6 +530,9 @@ textarea.form-control {
 		width: 80%;
 		margin: 0 auto;
 	}
+	.copyright{
+		text-align: center !important;
+	}
 }
 @media screen and (max-width: 480px	){
 	.red_car{
@@ -590,35 +593,11 @@ textarea.form-control {
 }
 
 /* ---------------------------------------------- /*
- * Skills
+ * Map
 /* ---------------------------------------------- */
-
-.chart {
-    display: inline-block;
-    height: 140px;
-    margin: 50px 0;
-    position: relative;
-    text-align: center;
-    width: 140px;
+.map{
+	width: 100%;
 }
-.chart canvas {
-    left: 0;
-    position: absolute;
-    top: 0;
-}
-.percent {
-    display: inline-block;
-    font-size: 25px;
-    font-weight: 300;
-    line-height: 140px;
-    z-index: 2;
-}
-.percent:after {
-    content: "%";
-    font-size: 50%;
-    margin-left: 0.1em;
-}
-
 /* ---------------------------------------------- /*
  * Contact
 /* ---------------------------------------------- */
@@ -632,14 +611,27 @@ textarea.form-control {
 /* ---------------------------------------------- */
 
 #footer {
-	background: #222;
+	border: 1px solid #000000;
+	background-color: #07191d;
 	text-align: center;
-	padding: 40px 0;
+	padding: 15px 0;
 	color: #FFF;
+}
+.cont_foot{
+	
+}
+.logo-footer{
+	display: block;
+	max-width: 233px;
+	max-height: 65px;
 }
 
 .copyright {
-	margin: 0;
+	font-family: Garamond;
+	font-size: 1.125em;
+	font-weight: 400;
+	line-height: 61px;
+	text-align: right;
 }
 
 .copyright a{
@@ -650,36 +642,6 @@ textarea.form-control {
     animation-iteration-count: infinite;
     -webkit-animation-iteration-count: infinite;
     color: #ff5252;
-}
-
-.social-links {
-	list-style: none;
-	padding: 0;
-	margin: 0 0 20px;
-}
-
-.social-links li {
-	display: inline-block;
-	margin: 5px;
-}
-
-.social-links a {
-	width: 36px;
-	height: 36px;
-	display: block;
-	line-height: 35px;
-	text-align: center;
-	border: 1px solid rgba(255, 255, 255, .1);
-	-webkit-border-radius: 3px;
-	   -moz-border-radius: 3px;
-			border-radius: 3px;
-	font-size: 14px;
-	color: rgba(255, 255, 255, .2);
-}
-
-.social-links a:hover {
-	border: 1px solid rgba(255, 255, 255, .5);
-	color: rgba(255, 255, 255, .8);
 }
 
 /* ---------------------------------------------- /*
@@ -776,7 +738,7 @@ textarea.form-control {
 .scroll-up a:hover,
 .scroll-up a:active {
 	background-color: rgba(235, 235, 235, .8);
-	color: #e7746f;
+	color: #000000;
 }
 
 /* ---------------------------------------------- /*
