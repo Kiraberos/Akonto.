@@ -267,7 +267,7 @@ textarea.form-control {
 
 .pfblock-header {
 	text-align: center;
-	margin: 0 0 60px;
+	margin: 0 0 78px;
 }
 
 .pfblock-header-left {
@@ -562,6 +562,7 @@ textarea.form-control {
 	font-size: 1.250em;
 	color: #464545;
 	font-weight: normal;
+	text-transform: none;
 }
 .iconbox-desc{
 	font-family: Garamond;
@@ -852,4 +853,16 @@ textarea.form-control {
 	font-family: 'Didona';
 	font-size: 1.375em;
 	font-weight: normal;
+}
+
+/* Example for media query */
+@media screen and (max-width: 30.6em) { 
+
+	.cbp-qtrotator {
+		font-size: 70%;
+	}
+
+	.cbp-qtrotator img {
+		width: 80px;
+	}
 }
