@@ -527,6 +527,13 @@ textarea.form-control {
 	.copyright{
 		text-align: center !important;
 	}
+	.cont_prev{
+		margin-top: 0px;
+	}
+	.contact_inf{
+		display: block;
+		padding-top: 25px;
+	}
 }
 @media screen and (max-width: 480px	){
 	.red_car{
