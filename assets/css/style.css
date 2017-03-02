@@ -64,17 +64,9 @@ a,
 /* ---------------------------------------------- /*
  * Typography
 /* ---------------------------------------------- */
-
-h1, h2, h3, h4, h5, h6 {
-	font: 700 40px/1.2 Didona;
-	letter-spacing: 5px;
-	margin: 5px 0 5px;
-	color: #222;
-}
-
 h2 {
 	font-size: 30px;
-	margin: 0 0 30px;
+	margin: 0 0 20px;
 }
 
 h3 {
@@ -104,6 +96,10 @@ li{
 }
 ul{
 	padding: 0;
+}
+.phone{
+	max-width: 16px;
+	max-height: 15px;
 }
 
 /* ---------------------------------------------- /*
@@ -235,7 +231,7 @@ textarea.form-control {
 	padding: 120px 0 100px;
 }
 .pfblock-services{
-	padding: 70px 0 0px;
+	padding: 53px 0 0px;
 }
 .pfblock-cars{
 	padding: 0px 0 100px;
@@ -267,7 +263,7 @@ textarea.form-control {
 
 .pfblock-header {
 	text-align: center;
-	margin: 0 0 78px;
+	margin: 0 0 80px;
 }
 
 .pfblock-header-left {
@@ -282,7 +278,7 @@ textarea.form-control {
 .pfblock-title{
    	color: #464545;
 	font-family: 'Didona';
-	font-size: 1.650em;
+	font-size: 25px;
 	font-weight: normal;
 	letter-spacing: normal;
 	text-transform: none;
@@ -414,12 +410,13 @@ textarea.form-control {
 	font-size: 1.375em;
 	font-weight: 400;
 	font-family: 'Didona';
+	padding-bottom: 15px;
 }
 .numb,
 .mail{
 	color: #ffffff;
 	font-family: Garamond;
-	font-size: 1.125em;
+	font-size: 18px;
 	font-weight: 400;
 	line-height: 20px;
 }
@@ -474,7 +471,7 @@ textarea.form-control {
 }
 .preview{
 	font-family: 'Didona';
-	font-size: 1.250em;
+	font-size: 26px;
 	color: #464545;
 	font-weight: 400;
     letter-spacing: normal;
@@ -482,7 +479,7 @@ textarea.form-control {
 }
 .prev_text{
 	font-family: Garamond;
-	font-size: 1.000em;
+	font-size: 18px;
 	line-height: 25px;
 	color: #464545;
 	margin: 0px 0px 5px;
@@ -497,6 +494,8 @@ textarea.form-control {
 .left_text{
 	background-color: #ffffff;
 	padding: 2% 3.6%;
+}
+.shadow{
 	-webkit-box-shadow: -5px 9px 33px -9px rgba(0,0,0,0.75);
 	-moz-box-shadow: -5px 9px 33px -9px rgba(0,0,0,0.75);
 	box-shadow: -5px 9px 33px -9px rgba(0,0,0,0.75);
@@ -508,8 +507,14 @@ textarea.form-control {
     position: relative;
 }
 @media screen and (max-width: 1199px){
-	.red_car{
-		min-height: 425px;
+	.right_pict,
+	.left_text{
+		float: none;
+		margin: 0 auto;
+		width: 60%;
+	}
+	.charact li{
+		padding: 15px 15px !important;
 	}
 }
 @media screen and (max-width: 991px){
@@ -562,7 +567,6 @@ textarea.form-control {
 	font-size: 1.250em;
 	color: #464545;
 	font-weight: normal;
-	text-transform: none;
 }
 .iconbox-desc{
 	font-family: Garamond;
@@ -830,10 +834,10 @@ textarea.form-control {
 }
 .charact li{
 	border-right: 1px solid #464545;
-	padding: 1.5% 4%;
+	padding: 15px 21px;
 	color: #464545;
 	font-family: Garamond;
-	font-size: 1.125em;
+	font-size: 18px;
 	font-weight: 400;
 }
 .charact li:last-child,
@@ -847,22 +851,10 @@ textarea.form-control {
 .btn_pdf{
 	background-color: #be6411;
 	color: #ffffff;
-	padding: 1.3% 2.8% !important;
+	padding: 15px 21px !important;
 }
 .btn_pdf a{
 	font-family: 'Didona';
-	font-size: 1.375em;
+	font-size: 22px;
 	font-weight: normal;
-}
-
-/* Example for media query */
-@media screen and (max-width: 30.6em) { 
-
-	.cbp-qtrotator {
-		font-size: 70%;
-	}
-
-	.cbp-qtrotator img {
-		width: 80px;
-	}
 }
