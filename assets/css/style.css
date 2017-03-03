@@ -265,6 +265,12 @@ textarea.form-control {
 	text-align: center;
 	margin: 0 0 80px;
 }
+.pf-item{
+	margin: 0;
+}
+.pf-catalog{
+	margin: -20px 0 77px;
+}
 
 .pfblock-header-left {
 	text-align: left;
@@ -404,6 +410,7 @@ textarea.form-control {
 }
 .adr_in_Pol{
 	line-height: 42px;
+	white-space: nowrap;
 }
 .title_in{
 	color: #ffffff;
@@ -516,6 +523,14 @@ textarea.form-control {
 	.charact li{
 		padding: 15px 15px !important;
 	}
+	.shadow{
+		box-shadow: none;
+	}
+	.left_text{
+		webkit-box-shadow: -5px 9px 33px -9px rgba(0,0,0,0.75);
+    	-moz-box-shadow: -5px 9px 33px -9px rgba(0,0,0,0.75);
+    	box-shadow: -5px 9px 33px -9px rgba(0,0,0,0.75);
+	}
 }
 @media screen and (max-width: 991px){
 	.right_pict,
@@ -600,8 +615,16 @@ textarea.form-control {
 /* ---------------------------------------------- /*
  * Map
 /* ---------------------------------------------- */
-.map{
+.map_sect{
+	padding-top: 50%;
+	position: relative;
+}
+#map{
+	position: absolute;
 	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
 }
 /* ---------------------------------------------- /*
  * Contact
