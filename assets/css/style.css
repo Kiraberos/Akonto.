@@ -573,6 +573,13 @@ textarea.form-control {
 	}
 	.adr_in_Pol{
 		white-space: normal;
+		line-height: 25px;
+	}
+	.contact_inf{
+		padding-top: 0;
+	}
+	.contact_inf li{
+		margin: 5px 0;
 	}
 }
 /* ---------------------------------------------- /*
@@ -873,8 +880,8 @@ textarea.form-control {
 		width: 100%;
 	}
 	.pfblock-image{
-		max-height: 500px;
-		background-attachment: inherit;
+		height: 500px;
+		background-attachment: inherit !important;
 	}
 	}
 }
