@@ -464,6 +464,7 @@ textarea.form-control {
 	font-size: 1.375em;
 	font-weight: 400;
 	text-transform: uppercase;
+	white-space: nowrap;
 }
 .lang_menu_sub{
 	opacity: 0;
@@ -566,12 +567,12 @@ textarea.form-control {
 	.lang:hover > .lang_menu_sub{
 		transform: translate(50px, -27px);
 	}
-	#home{
-		background-attachment: inherit;
-	}
 	.adapt_block{
 		display: block;
 		padding-left: 15%;
+	}
+	.adr_in_Pol{
+		white-space: normal;
 	}
 }
 /* ---------------------------------------------- /*
@@ -870,6 +871,11 @@ textarea.form-control {
 @media screen and (max-width: 767px){
 	.car img{
 		width: 100%;
+	}
+	.pfblock-image{
+		max-height: 500px;
+		background-attachment: inherit;
+	}
 	}
 }
 .catalog_row{
