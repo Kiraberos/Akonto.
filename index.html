@@ -38,7 +38,7 @@
 	<section id="home" class="pfblock-image screen-height">
         <div class="home-overlay"></div>
         <div class="container">
-			<nav class="nav_contact">
+			<div class="nav_contact">
 				<div class="row">
 					<div class="col-lg-4 col-md-4 logo_block">
 						<a href="#" class="logotype">
@@ -46,7 +46,18 @@
 							<p class="logo_text">автомобили из Европы</p>
 						</a>
 					</div>
-						<address class="contact_inf col-lg-8 col-md-8 col-sm-12 col-xs-12">
+					
+					<nav class="navbar navbar-inverse">
+						<div class="navbar-header">
+							<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#custom-collapse">
+								<span class="sr-only">Toggle navigation</span>
+								<span class="icon-bar"></span>
+								<span class="icon-bar"></span>
+								<span class="icon-bar"></span>
+							</button>
+						</div>
+						<div class="collapse navbar-collapse" id="custom-collapse">
+						<address class="nav navbar-nav navbar-right contact_inf col-lg-8 col-md-8 col-sm-12 col-xs-12">
 							<ul class="address_one">
 								<p class="title_in">Контакты в Польше:</p>
 								<li>
@@ -70,7 +81,7 @@
 									<nobr>
 										<i class="fa" aria-hidden="true">
 											<img src="assets/images/phone-copy.png" class="phone" alt="">
-											<span class="numb">&nbsp+38 095 776 98 86 ; +38 067 909 18 76	</span>
+											<span class="numb">&nbsp+38 095 776 98 86 ; <span class="adapt_block">+38 067 909 18 76	</span></span>
 										</i>
 									</nobr>
 								</li>
@@ -89,8 +100,10 @@
 								</li>
 							</ul>
 						</address>
+					</div>
+					</nav>
 				</div>
-			</nav>
+			</div>
 		</div>
 
 	</section>

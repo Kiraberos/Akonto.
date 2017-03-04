@@ -25,6 +25,11 @@ a:hover {
 	color: #999;
 }
 
+.navbar-inverse{
+	background-color: transparent;
+	border-color: transparent;
+}
+
 /* ---------------------------------------------- /*
  * Transition elsements
 /* ---------------------------------------------- */
@@ -559,6 +564,10 @@ textarea.form-control {
 	}
 	#home{
 		background-attachment: local;
+	}
+	.adapt_block{
+		display: block;
+		padding-left: 15%;
 	}
 }
 /* ---------------------------------------------- /*
