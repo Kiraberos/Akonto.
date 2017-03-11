@@ -235,8 +235,8 @@ textarea.form-control {
 .pfblock {
 	padding: 120px 0 100px;
 }
-.pfblock-services{
-	padding: 53px 0 0px;
+.pfblock-breadcrumbs{
+	padding: 26px 0px;
 }
 .pfblock-cars{
 	padding: 0px 0 100px;
@@ -293,6 +293,8 @@ textarea.form-control {
 	font-weight: normal;
 	letter-spacing: normal;
 	text-transform: none;
+	padding-bottom: 48px;
+	margin: 0;
 }
 .pfblock-title-catalog{
 	padding: 1.5%;
@@ -313,6 +315,40 @@ textarea.form-control {
 
 .pfblock-icon {
 	font-size: 32px;
+}
+.calltoaction *{
+    text-align: center;
+}
+
+.calltoaction h2 {
+	font-size: 20px;
+	letter-spacing: 1px;
+	margin-bottom: 5px;
+}
+
+.calltoaction-decription{
+    padding-top: 20px;
+    padding-bottom: 30px;
+    font-size: 20px;
+    color: #fff;
+}
+
+.calltoaction-btn {
+	text-align: center;
+}
+
+.calltoaction-btn > .btn {
+    background: rgba(255, 255, 255, .8);
+    color: #111;
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+.calltoaction-btn > .btn:hover{
+    background: #fff;
+}
+
+.long-down {
+	margin-bottom: 40px;
 }
 
 /* ---------------------------------------------- /*
@@ -337,12 +373,12 @@ textarea.form-control {
 }
 
 .iconbox-title {
-	margin: 0 0 15px;
+	margin: 0 0 10px;
 	padding: 0;
 	font-family: 'Didona';
-	font-size: 1.250em;
 	color: #464545;
-	font-weight: normal;
+	font-size: 18px;
+	font-weight: 400;
 }
 .iconbox-desc{
 	font-family: Garamond;
@@ -350,15 +386,31 @@ textarea.form-control {
 	line-height: 30px;
 	color: #464545;
 }
+.iconbox-span{
+	font-family: Garamond;
+	line-height: 27px;
+}
+.btn_block{
+    -webkit-transform: translate(0px, 100px);
+       -moz-transform: translate(0px, 100px);
+        -ms-transform: translate(0px, 100px);
+         -o-transform: translate(0px, 100px);
+            transform: translate(0px, 100px);
+}
+.btn_pdf_descr{
+	color: #ffffff;
+	font-family: "Didona C";
+	font-size: 22px;
+	font-weight: 400;
+}
 
 /* ---------------------------------------------- /*
  * Home
 /* ---------------------------------------------- */
 
 #home {
-	background: url(../images/header.jpg);
+	background: url(../images/cars.jpg);
 	background-color: #222;
-	background-attachment: fixed;
 	background-repeat: no-repeat;
 	background-position: 50% 50%;
 	-webkit-background-size: cover;
@@ -367,7 +419,6 @@ textarea.form-control {
 			background-size: cover;
 	padding: 0;
 }
-
 .logotype{
 	text-align: center;
 	display: inline-block;
@@ -455,141 +506,59 @@ textarea.form-control {
 	visibility: visible;
 	color: #ffffff;
 	font-weight: 400;
-	text-transform: uppercase
+	text-transform: uppercase;
+}
+.home_cont{
+	padding: 0px 0px 20px 0px;
 }
 
 /* ---------------------------------------------- /*
- * Preview
+ * Breadcrumbs
 /* ---------------------------------------------- */
 
-.preview_inf{
-    padding: 120px 0 100px;
+.breadcrumbs_item{
+	display: inline-block;
+	vertical-align: middle;
+	margin-left: 10px;
 }
-.preview{
-	font-family: 'Didona';
-	font-size: 26px;
-	color: #464545;
+.breadcrumbs_link{
+	font-family: Garamond;
+	font-size: 17px;
 	font-weight: 400;
-    letter-spacing: normal;
-    text-transform: none;
+	line-height: 27px;
+	color: #464545;
+	vertical-align: middle;
 }
-.prev_text{
+.breadcrumbs_link:before{
+	content: ">";
+	display: inline-block;
+	margin: 0px 16px;
+	opacity: 0.6;
+}
+.breadcrumbs_item:first-child{
+	margin-left: 0;
+}
+.breadcrumbs_item:first-child .breadcrumbs_link:before{
+	display: none;
+}
+
+/* ---------------------------------------------- /*
+ * Description
+/* ---------------------------------------------- */
+
+.description{
+	padding-bottom: 25px;
+}
+.intro_image{
+	padding-bottom: 25px;
+}
+.description_title{
+	color: #464545;
 	font-family: Garamond;
 	font-size: 18px;
-	line-height: 25px;
-	color: #464545;
-	margin: 0px 0px 5px;
-}
-.right_pict,
-.left_text{
-	width: 50%;
-    float: right;
+	font-weight: 400;
+	line-height: 27px;
 	padding: 0;
-	position: relative;
-}
-.left_text{
-	background-color: #ffffff;
-	padding: 2% 3.6%;
-}
-.shadow{
-	-webkit-box-shadow: -5px 9px 33px -9px rgba(0,0,0,0.75);
-	-moz-box-shadow: -5px 9px 33px -9px rgba(0,0,0,0.75);
-	box-shadow: -5px 9px 33px -9px rgba(0,0,0,0.75);
-}
-.cont_prev{
-	margin-top: -80px;
-}
-.red_car{
-    position: relative;
-}
-@media screen and (max-width: 1199px){
-	.right_pict,
-	.left_text{
-		float: none;
-		margin: 0 auto;
-		width: 60%;
-	}
-	.charact li{
-		padding: 15px 15px !important;
-	}
-	.shadow{
-		box-shadow: none;
-	}
-	.left_text{
-		webkit-box-shadow: -5px 9px 33px -9px rgba(0,0,0,0.75);
-    	-moz-box-shadow: -5px 9px 33px -9px rgba(0,0,0,0.75);
-    	box-shadow: -5px 9px 33px -9px rgba(0,0,0,0.75);
-	}
-}
-@media screen and (max-width: 991px){
-	.right_pict,
-	.left_text{
-		float: none;
-		width: 80%;
-		margin: 0 auto;
-	}
-	.copyright{
-		text-align: center !important;
-	}
-	.cont_prev{
-		margin-top: 0px;
-	}
-	.contact_inf{
-		display: block;
-		padding-top: 25px;
-	}
-}
-@media screen and (max-width: 480px	){
-	.red_car{
-		min-height: 220px;
-	}
-	.lang:hover > .lang_menu_sub{
-		transform: translate(50px, -32px);
-	}
-	.adapt_block{
-		display: block;
-		padding-left: 15%;
-	}
-	.adr_in_Pol{
-		white-space: normal;
-		line-height: 25px;
-	}
-	.contact_inf{
-		padding-top: 0;
-	}
-	.contact_inf li{
-		margin: 5px 0;
-	}
-}
-
-/* ---------------------------------------------- /*
- * Cars
-/* ---------------------------------------------- */
-.wrap-catalog{
-	background: url(../images/bg-road.jpg);
-	background-color: #222;
-	background-repeat: no-repeat;
-	background-position: 50% 50%;
-	-webkit-background-size: cover;
-	   -moz-background-size: cover;
-		 -o-background-size: cover;
-			background-size: cover;
-	padding: 0;
-}
-
-/* ---------------------------------------------- /*
- * Map
-/* ---------------------------------------------- */
-.map_sect{
-	padding-top: 50%;
-	position: relative;
-}
-#map{
-	position: absolute;
-	width: 100%;
-	height: 100%;
-	top: 0;
-	left: 0;
 }
 
 /* ---------------------------------------------- /*
@@ -603,9 +572,7 @@ textarea.form-control {
 	padding: 15px 0;
 	color: #FFF;
 }
-.cont_foot{
-	
-}
+
 .logo-footer{
 	display: block;
 	max-width: 233px;
@@ -780,21 +747,23 @@ textarea.form-control {
 /* ---------------------------------------------- */
 
 @media (max-width: 767px) {
-
-	.calltoaction {
-		text-align: center;
+	.charact_descr{
+		padding-top: 30px;
 	}
-
+	.btn_block{
+		-webkit-transform: none;
+		   -moz-transform: none;
+		    -ms-transform: none;
+		     -o-transform: none;
+		        transform: none;
+	    padding-top: 10px;
+	}
 }
 
 /*--------------------------------*/
 /***** Catalog *****/
 /*--------------------------------*/
 
-.car{
-	text-align: center;
-	padding-bottom: 29px;
-}
 .charact{
 	display: flex;
 	-webkit-justify-content: space-between;
@@ -811,6 +780,24 @@ textarea.form-control {
 		border-bottom: 1px solid #464545 ;
 		border-right: none !important;
 	}
+	.address_one,
+	.address_two{
+		display: none;
+	}
+	.logo_block{
+		text-align: center;
+	}
+	.lang:hover > .lang_menu_sub{
+		-webkit-transform: translate(45px, -27px);
+	  	-moz-transform: translate(45px, -27px);
+	    -ms-transform: translate(45px, -27px);
+	     -o-transform: translate(45px, -27px);
+	        transform: translate(45px, -27px);
+	}
+	.copyright{
+		text-align: center;
+	}
+
 }
 @media screen and (max-width: 767px){
 	.car img{
@@ -820,9 +807,6 @@ textarea.form-control {
 		/* height: 500px !important;
 		background-attachment: inherit !important; */
 	}
-}
-.catalog_row{
-    transform: translate(0px,-28px);
 }
 .charact li{
 	border-right: 1px solid #464545;
@@ -836,17 +820,31 @@ textarea.form-control {
 .charact li:nth-child(4){
 	border: none;
 }
-.fix{
-	background-color: #ffffff;
-	margin: 0;
-}
 .btn_pdf{
 	background-color: #be6411;
 	color: #ffffff;
-	padding: 15px 21px !important;
+	padding: 15px 21px;
 }
 .btn_pdf a{
 	font-family: 'Didona';
 	font-size: 22px;
 	font-weight: normal;
+}
+
+/*--------------------------------*/
+/***** Slider *****/
+/*--------------------------------*/
+
+.carousel-control.right,
+.carousel-control.left{
+	background-image: none;
+}
+.carousel-indicators{
+	display: none;
+}
+.glyphicon{
+	top: 45%
+}
+.slider{
+	padding-bottom: 25px;
 }
