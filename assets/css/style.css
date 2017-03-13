@@ -509,34 +509,44 @@ textarea.form-control {
 		margin: 0 auto;
 		width: 60%;
 	}
-	.charact li{
-		padding: 15px 15px !important;
-	}
-	.shadow{
-		box-shadow: none;
-	}
 	.left_text{
 		webkit-box-shadow: -5px 9px 33px -9px rgba(0,0,0,0.75);
     	-moz-box-shadow: -5px 9px 33px -9px rgba(0,0,0,0.75);
     	box-shadow: -5px 9px 33px -9px rgba(0,0,0,0.75);
 	}
+	.shadow{
+		box-shadow: none;
+	}
+	.charact li{
+		padding: 12px 15px !important;
+	}
+	.btn_pdf{
+		display: inline-block;
+	}
+	.btn_pdf a{
+		vertical-align: middle;
+		vertical-align: -webkit-baseline-middle;
+	}
 }
 @media screen and (max-width: 991px){
+	.contact_inf{
+		display: block;
+		padding-top: 25px;
+	}
 	.right_pict,
 	.left_text{
 		float: none;
 		width: 80%;
 		margin: 0 auto;
 	}
-	.copyright{
-		text-align: center !important;
-	}
 	.cont_prev{
 		margin-top: 0px;
 	}
-	.contact_inf{
+	.btn_pdf{
 		display: block;
-		padding-top: 25px;
+	}
+	.copyright{
+		text-align: center;
 	}
 }
 @media screen and (max-width: 480px	){
@@ -544,7 +554,11 @@ textarea.form-control {
 		min-height: 220px;
 	}
 	.lang:hover > .lang_menu_sub{
-		transform: translate(50px, -32px);
+		-webkit-transform: translate(50px, -32px);
+  		-moz-transform: translate(50px, -32px);
+	    -ms-transform: translate(50px, -32px);
+	     -o-transform: translate(50px, -32px);
+	        transform: translate(50px, -32px);
 	}
 	.adapt_block{
 		display: block;
@@ -822,14 +836,18 @@ textarea.form-control {
 	}
 }
 .catalog_row{
-    transform: translate(0px,-28px);
+    -webkit-transform: translate(0px,-28px);
+   	-moz-transform: translate(0px,-28px);
+    -ms-transform: translate(0px,-28px);
+ 	-o-transform: translate(0px,-28px);
+   		 transform: translate(0px,-28px);
 }
 .charact li{
 	border-right: 1px solid #464545;
 	padding: 15px 21px;
 	color: #464545;
 	font-family: Garamond;
-	font-size: 18px;
+	font-size: 17px;
 	font-weight: 400;
 }
 .charact li:last-child,
@@ -843,7 +861,6 @@ textarea.form-control {
 .btn_pdf{
 	background-color: #be6411;
 	color: #ffffff;
-	padding: 15px 21px !important;
 }
 .btn_pdf a{
 	font-family: 'Didona';
