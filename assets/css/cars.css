@@ -842,8 +842,8 @@ textarea.form-control {
 .carousel-indicators{
 	display: none;
 }
-.glyphicon img{
-	top: 45% !important;
+.glyphicon{
+	top: 45%;
 }
 .slider{
 	padding-bottom: 25px;
