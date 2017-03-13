@@ -843,7 +843,7 @@ textarea.form-control {
 	display: none;
 }
 .glyphicon{
-	top: 45%;
+	top: 45% !important;
 }
 .slider{
 	padding-bottom: 25px;
