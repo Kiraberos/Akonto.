@@ -842,7 +842,7 @@ textarea.form-control {
 .carousel-indicators{
 	display: none;
 }
-.glyphicon{
+.glyphicon img{
 	top: 45% !important;
 }
 .slider{
