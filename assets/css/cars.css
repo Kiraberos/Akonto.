@@ -842,8 +842,7 @@ textarea.form-control {
 .carousel-indicators{
 	display: none;
 }
-.carousel-control,
-.glyphicon{
+.carousel-control{
 	top: 45%;
 }
 .slider{
