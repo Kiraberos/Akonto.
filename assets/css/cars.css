@@ -845,6 +845,9 @@ textarea.form-control {
 .carousel-control{
 	top: 45%;
 }
+.glyphicon{
+	top: 1px;
+}
 .slider{
 	padding-bottom: 25px;
 }
