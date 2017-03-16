@@ -831,8 +831,8 @@ textarea.form-control {
 		width: 100%;
 	}
 	.pfblock-image{
-		/* height: 500px !important;
-		background-attachment: inherit !important; */
+		height: 500px !important;
+		background-attachment: inherit !important; 
 	}
 }
 .catalog_row{
