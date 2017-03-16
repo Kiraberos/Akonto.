@@ -798,6 +798,10 @@ textarea.form-control {
 	.calltoaction {
 		text-align: center;
 	}
+	.pfblock-image{
+		height: 500px !important;
+		background-attachment: inherit !important; 
+	}
 
 }
 
@@ -829,10 +833,6 @@ textarea.form-control {
 @media screen and (max-width: 767px){
 	.car img{
 		width: 100%;
-	}
-	.pfblock-image{
-		height: 500px !important;
-		background-attachment: inherit !important; 
 	}
 }
 .catalog_row{
