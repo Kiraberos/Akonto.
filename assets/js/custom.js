@@ -141,15 +141,19 @@
 		        border: false,
 		        closeButtonMarkup: '<button type="button" class="custom-close">&#215;</button>',
 		        content: template({
-		            title: 'Complex Styles',
-		            subtitle: 'For Snazzy Info Windows',
+		            title: 'Piekna 7',
+		            subtitle: 'Biała Podlaska, Lubelskie (Polska)',
 		            bgImg: 'https://images.unsplash.com/42/U7Fc1sy5SCUDIu4tlJY3_NY_by_PhilippHenzler_philmotion.de.jpg?dpr=1&auto=format&fit=crop&w=800&h=350&q=80&cs=tinysrgb&crop=',
-		            body: '<p><em>Photo by <a href="https://unsplash.com/@philipphenzler" target="_blank">Philipp Henzler</a>.</em></p>' +
-		                  '<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce imperdiet elit et nibh tincidunt elementum eget quis orci.</p>' +
-		                  '<p>Ut magna est, lobortis ut mollis eu, vulputate id turpis.</p>' +
-		                  '<p>Pellentesque id lacus quis orci consequat pellentesque non non purus. Mauris ligula dolor, volutpat quis blandit at, luctus luctus quam. In hac habitasse platea dictumst.</p>' +
-		                  '<p>In hac habitasse platea dictumst. In hac habitasse platea dictumst.</p>' +
-		                  '<p>Nam lorem dui, molestie nec elementum nec, lobortis sed lacus. Morbi nec tellus dolor. Etiam nec volutpat urna, pretium consectetur augue. In mattis, leo a ullamcorper venenatis, augue tortor cursus quam, nec mollis neque urna vitae lacus.</p>'
+		            body: '<p><strong>Котнакты в Польше:</strong></p>' +
+		                  '<p><i class="fa fa-phone" aria-hidden="true"></i> +48 792 063 263</p>' +
+		                  '<p>пн - пт: 9.00 - 18.00</p>' +
+		                  '<p><i class="fa fa-envelope-o" aria-hidden="true"></i> akonto2@gmail.com</p>' +
+		                  '<p><strong>Котнакты в Украине:</strong></p>' +
+		                  '<p><i class="fa fa-phone" aria-hidden="true"></i> +38 095 776 98 86 ; +38 067 909 18 76' +
+		                  '<p>пн - пт: 9.00 - 18.00.</p>' +
+		                  '<p><i class="fa fa-envelope-o" aria-hidden="true"></i> luvar7811@gmail.com</p>' +
+		                  '<p>Piekna 7, Biała Podlaska,</p>'+
+		                  '<p>Lubelskie (Polska)</p>'
 		        }),
 		        callbacks: {
 		            open: function() {
