@@ -236,7 +236,7 @@ textarea.form-control {
 	padding: 120px 0 100px;
 }
 .pfblock-services{
-	padding: 53px 0 0px;
+	padding: 60px 0 0px;
 }
 .pfblock-cars{
 	padding: 0px 0 100px;
@@ -502,6 +502,12 @@ textarea.form-control {
 .red_car{
     position: relative;
 }
+
+/*AFTER PREVIEW*/
+.why_us{
+	padding-top: 15px;
+}
+
 @media screen and (max-width: 1199px){
 	.right_pict,
 	.left_text{
