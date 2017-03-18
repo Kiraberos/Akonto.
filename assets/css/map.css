@@ -293,7 +293,8 @@ body {
 
 .custom-body {
   padding: 30px;
-  background-color: #fff; }
+  background-color: #6c7835;
+  color:#fff; }
   .custom-body p {
     margin: 0; }
   .custom-body * + p {

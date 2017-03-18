@@ -793,25 +793,6 @@ textarea.form-control {
 	z-index: 9999;
 }
 
-/* ---------------------------------------------- /*
- * Media
-/* ---------------------------------------------- */
-
-@media (max-width: 767px) {
-
-	.calltoaction {
-		text-align: center;
-	}
-	.pfblock-image{
-		height: 500px !important;
-		background-attachment: inherit !important; 
-	}
-	.lang_menu{
-	padding-top: 15px;
-}
-
-}
-
 /*--------------------------------*/
 /***** Catalog *****/
 /*--------------------------------*/
@@ -837,9 +818,19 @@ textarea.form-control {
 		border-right: none !important;
 	}
 }
-@media screen and (max-width: 767px){
+@media screen and (max-width: 768px){
 	.car img{
 		width: 100%;
+	}
+	.calltoaction {
+		text-align: center;
+	}
+	.pfblock-image{
+		height: 500px !important;
+		background-attachment: inherit !important; 
+	}
+	.lang_menu{
+	padding-top: 15px;
 	}
 }
 .catalog_row{
