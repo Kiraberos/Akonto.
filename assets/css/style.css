@@ -817,6 +817,9 @@ textarea.form-control {
 		border-bottom: 1px solid #464545 ;
 		border-right: none !important;
 	}
+	.lang_menu{
+		padding-top: 15px;
+	}
 }
 @media screen and (max-width: 768px){
 	.car img{
@@ -829,9 +832,6 @@ textarea.form-control {
 		height: 500px !important;
 		background-attachment: inherit !important; 
 	}
-	.lang_menu{
-	padding-top: 15px;
-	}
 }
 .catalog_row{
     -webkit-transform: translate(0px,-28px);
@@ -842,7 +842,7 @@ textarea.form-control {
 }
 .charact li{
 	border-right: 1px solid #464545;
-	padding: 15px 21px;
+	padding: 15px 20px;
 	color: #464545;
 	font-family: Garamond;
 	font-size: 17px;

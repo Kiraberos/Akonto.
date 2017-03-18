@@ -185,7 +185,7 @@
   border-top-color: #bbb; }
 
 .si-pointer-bg-top {
-  border-top-color: #eee; }
+  border-top-color: #6c7835; }
   .si-has-border .si-pointer-bg-top {
     top: -1px;
     margin-bottom: 0px; }
@@ -255,8 +255,6 @@ body {
     top: 0;
     opacity: 1;
     visibility: visible; }
-  .custom-window .si-content-wrapper {
-    padding-bottom: 10px; }
   .custom-window .si-content {
     overflow: visible; }
 
@@ -294,7 +292,7 @@ body {
 .custom-body {
   padding: 30px;
   background-color: #6c7835;
-  color:#fff; }
+  color:#fff;}
   .custom-body p {
     margin: 0; }
   .custom-body * + p {
@@ -303,6 +301,18 @@ body {
     color: #60a295; }
     .custom-body a:hover, .custom-body a:focus, .custom-body a:active {
       color: #437369; }
+.Didona_map{
+  font-family: 'Didona';
+  font-size: 22px;
+  font-weight: 400;
+  letter-spacing: 1px;
+}
+.Garamond_map{
+  font-family: Garamond;
+  font-size: 15px;
+  font-weight: normal;
+  letter-spacing: 1px;
+}
 
 .custom-close {
   position: absolute;
