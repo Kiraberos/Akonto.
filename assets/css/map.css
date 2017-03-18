@@ -258,23 +258,8 @@ body {
   .custom-window .si-content {
     overflow: visible; }
 
-.custom-content {
-  position: relative;
-  max-height: inherit;
-  padding-top: 120px;
-  overflow: auto;
-  z-index: 2; }
-
 .custom-img {
-  position: absolute;
-  top: 0;
-  right: 0;
-  left: 0;
-  height: 120px;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-  z-index: 1; }
+  display: none; }
 
 .custom-header {
   position: relative;
@@ -334,8 +319,6 @@ body {
 @media (min-width: 992px) {
   .custom-window {
     max-width: 500px; }
-  .custom-content {
-    padding-top: 160px; }
   .custom-img {
     height: 160px; }
   .custom-header,
