@@ -435,7 +435,7 @@ textarea.form-control {
 	}
 }
 .lang_menu{
-	margin-left: 15px;
+	padding-top: 15px;
 }
 .lang{
 	cursor: pointer;
