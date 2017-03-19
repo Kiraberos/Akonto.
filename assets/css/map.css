@@ -287,7 +287,7 @@ body {
     .custom-body a:hover, .custom-body a:focus, .custom-body a:active {
       color: #437369; }
 .Didona_map{
-  font-family: 'Didona';
+  font-family: 'Didona_N';
   font-size: 22px;
   font-weight: 400;
   letter-spacing: 1px;
@@ -297,6 +297,9 @@ body {
   font-size: 15px;
   font-weight: normal;
   letter-spacing: 1px;
+}
+.schedule{
+  padding-left: 21px;
 }
 
 .custom-close {

@@ -3,6 +3,11 @@
 	font-weight: normal;
 	src: url('../fonts/DidonaC.ttf');
 }
+@font-face{
+	font-family: 'Didina_N';
+	font-weight: normal;;
+	src: url('../fonts/Didona.ttf');
+}
 
 /*!
  * Clean v2.0.0

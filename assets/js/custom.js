@@ -147,11 +147,11 @@
 		            bgImg: 'https://images.unsplash.com/42/U7Fc1sy5SCUDIu4tlJY3_NY_by_PhilippHenzler_philmotion.de.jpg?dpr=1&auto=format&fit=crop&w=800&h=350&q=80&cs=tinysrgb&crop=',
 		            body: '<p class="Didona_map">Котнакты в Польше:</p>' +
 		                  '<p class="Garamond_map"><i class="fa fa-phone" aria-hidden="true"></i> +48 792 063 263</p>' +
-		                  '<p class="Garamond_map">пн - пт: 9.00 - 18.00</p>' +
+		                  '<p class="Garamond_map schedule">пн - пт: 9.00 - 18.00</p>' +
 		                  '<p class="Garamond_map"><i class="fa fa-envelope-o" aria-hidden="true"></i> akonto2@gmail.com</p>' +
 		                  '<p class="Didona_map">Котнакты в Украине:</p>' +
 		                  '<p class="Garamond_map"><i class="fa fa-phone" aria-hidden="true"></i> +38 095 776 98 86 ; +38 067 909 18 76' +
-		                  '<p class="Garamond_map">пн - пт: 9.00 - 18.00.</p>' +
+		                  '<p class="Garamond_map schedule">пн - пт: 9.00 - 18.00.</p>' +
 		                  '<p class="Garamond_map"><i class="fa fa-envelope-o" aria-hidden="true"></i> luvar7811@gmail.com</p>' +
 		                  '<p class="Garamond_map">Piekna 7, Biała Podlaska,</p>'+
 		                  '<p class="Garamond_map">Lubelskie (Polska)</p>'
