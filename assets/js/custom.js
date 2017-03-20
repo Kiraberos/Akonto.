@@ -132,8 +132,7 @@
 		        marker: marker,
 		        wrapperClass: 'custom-window',
 		        offset: {
-		            top: '-72px',
-		            left: '-400px'
+		            top: '-72px'
 		        },
 		        edgeOffset: {
 		            top: 50,

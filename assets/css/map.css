@@ -266,6 +266,9 @@ body {
     overflow: auto;
     z-index: 2;
 }
+.custom-window{
+  margin-left: -400px;
+}
 .custom-header {
   position: relative;
   margin: 0;
@@ -332,5 +335,11 @@ body {
   .custom-header,
   .custom-body {
     padding: 40px; } }
+
+@media screen and (max-width: 767px){
+  .custom-window{
+    margin-left: 0px;
+  }
+}
 
 /*# sourceMappingURL=styles.css.map */
