@@ -466,25 +466,6 @@ textarea.form-control {
 	font-weight: 400;
 	line-height: 20px;
 }
-@media (min-width: 1200px){
-	.head {
-    	width: 1385px;
-    }
-}
-@media screen and (max-width: 1024px){
-	.contact_inf{
-		padding-left: 45px;
-	}
-}
-@media screen and (max-width: 980px){
-	.contact_inf{
-		padding-left: 15px;
-		display: block;
-	}
-	.logo_block{
-		text-align:center;
-	}
-}
 .lang_menu{
 	margin-left: 15px;
 }
@@ -742,24 +723,6 @@ textarea.form-control {
 	z-index: 9999;
 }
 
-/* ---------------------------------------------- /*
- * Media
-/* ---------------------------------------------- */
-
-@media (max-width: 767px) {
-	.charact_descr{
-		padding-top: 30px;
-	}
-	.btn_block{
-		-webkit-transform: none;
-		   -moz-transform: none;
-		    -ms-transform: none;
-		     -o-transform: none;
-		        transform: none;
-	    padding-top: 10px;
-	}
-}
-
 /*--------------------------------*/
 /***** Catalog *****/
 /*--------------------------------*/
@@ -770,43 +733,6 @@ textarea.form-control {
 	        justify-content: space-between;
 	border-top: 1px solid #464545;
 	margin: 0;
-}
-@media screen and (max-width: 991px){
-	.charact{
-		display: block;
-		border: none;
-	}
-	.charact li{
-		border-bottom: 1px solid #464545 ;
-		border-right: none !important;
-	}
-	.address_one,
-	.address_two{
-		display: none;
-	}
-	.logo_block{
-		text-align: center;
-	}
-	.lang:hover > .lang_menu_sub{
-		-webkit-transform: translate(45px, -27px);
-	  	-moz-transform: translate(45px, -27px);
-	    -ms-transform: translate(45px, -27px);
-	     -o-transform: translate(45px, -27px);
-	        transform: translate(45px, -27px);
-	}
-	.copyright{
-		text-align: center;
-	}
-
-}
-@media screen and (max-width: 767px){
-	.car img{
-		width: 100%;
-	}
-	.pfblock-image{
-		/* height: 500px !important;
-		background-attachment: inherit !important; */
-	}
 }
 .charact li{
 	border-right: 1px solid #464545;
@@ -850,4 +776,51 @@ textarea.form-control {
 }
 .slider{
 	padding-bottom: 25px;
+}
+
+/*--------------------------------*/
+/***** Adaptive *****/
+/*--------------------------------*/
+
+@media screen and (max-width: 1024px){
+	.contact_inf{
+		padding-left: 45px;
+	}
+}
+@media screen and (max-width: 991px){
+	.logo_block{
+		text-align: center;
+	}
+	.contact_inf{
+		padding-left: 15px;
+		display: block;
+	}
+	.address_one,
+	.address_two{
+		display: none;
+	}
+	.lang:hover > .lang_menu_sub{
+		-webkit-transform: translate(45px, -27px);
+	  	-moz-transform: translate(45px, -27px);
+	    -ms-transform: translate(45px, -27px);
+	     -o-transform: translate(45px, -27px);
+	        transform: translate(45px, -27px);
+	}
+	.copyright{
+		text-align: center;
+	}
+
+}
+@media screen and (max-width: 767px){
+	.charact_descr{
+		padding-top: 30px;
+	}
+	.btn_block{
+		-webkit-transform: none;
+		   -moz-transform: none;
+		    -ms-transform: none;
+		     -o-transform: none;
+		        transform: none;
+	    padding-top: 10px;
+	}
 }
