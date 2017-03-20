@@ -395,7 +395,6 @@ textarea.form-control {
 	display: flex;
 	-webkit-justify-content: center;
 	        justify-content: center;
-	padding-left: 95px ;
 }
 .adr_in_Pol{
     color: #ffffff;
@@ -789,8 +788,12 @@ textarea.form-control {
 	}
 }
 @media screen and (max-width: 1024px){
-	.contact_inf{
-		padding-left: 45px;
+	.lang:hover > .lang_menu_sub{
+		-webkit-transform: translate(-40px, -27px);
+  		-moz-transform: translate(-40px, -27px);
+	    -ms-transform: translate(-40px, -27px);
+	     -o-transform: translate(-40px, -27px);
+	        transform: translate(-40px, -27px);
 	}
 }
 @media screen and (max-width: 991px){
@@ -800,9 +803,16 @@ textarea.form-control {
 	.lang_menu{
 		padding-top: 15px;
 	}
+	.lang:hover > .lang_menu_sub{
+		-webkit-transform: none;
+  		-moz-transform: none;
+	    -ms-transform: none;
+	     -o-transform: none;
+	        transform: none;
+	}
 	.contact_inf{
 		display: block;
-		padding-top: 25px 0px 0px 15px;
+		padding: 25px 0px 0px 15px;
 	}
 	.right_pict,
 	.left_text{
