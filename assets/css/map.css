@@ -260,7 +260,12 @@ body {
 
 .custom-img {
   display: none; }
-
+.custom-content{
+    position: relative;
+    max-height: inherit;
+    overflow: auto;
+    z-index: 2;
+}
 .custom-header {
   position: relative;
   margin: 0;

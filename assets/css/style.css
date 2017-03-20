@@ -447,6 +447,9 @@ textarea.form-control {
 	text-transform: uppercase;
 	white-space: nowrap;
 }
+.lang_menu{
+	margin-left: 15px;
+}
 .lang_menu_sub{
 	opacity: 0;
 	visibility: hidden;
@@ -853,9 +856,11 @@ textarea.form-control {
 	font-size: 17px;
 	font-weight: 400;
 }
-.charact li:last-child,
 .charact li:nth-child(4){
 	border: none;
+}
+.charact li:nth-child(5){
+	border: 1px solid #be6411;
 }
 .fix{
 	background-color: #ffffff;

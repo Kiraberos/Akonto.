@@ -94,6 +94,7 @@
 		    var map = new google.maps.Map($('.map-canvas')[0], {
 		        zoom: 17,
 		        styles: mapStyle,
+		        scrollwheel:false,
 		        center: new google.maps.LatLng(52.034653, 23.107566)
 		    });
 
