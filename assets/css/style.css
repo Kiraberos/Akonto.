@@ -76,7 +76,7 @@ a,
 /* ---------------------------------------------- */
 h2 {
 	font-size: 30px;
-	margin: 0 0 20px;
+	margin: 0 0 15px;
 }
 
 h3 {
@@ -401,7 +401,7 @@ textarea.form-control {
     font-family: Garamond;
     font-size: 18px;
     font-weight: 400;
-	line-height: 42px;
+	line-height: 50px;
 	white-space: nowrap;
 }
 .title_in{
@@ -417,7 +417,7 @@ textarea.form-control {
 	font-family: Garamond;
 	font-size: 18px;
 	font-weight: 400;
-	line-height: 20px;
+	line-height: 25px;
 }
 .lang{
 	cursor: pointer;
@@ -457,6 +457,7 @@ textarea.form-control {
 	font-weight: 400;
     letter-spacing: 2px;
     text-transform: none;
+    line-height: 33px;
 }
 .prev_text{
 	font-family: Garamond;
@@ -465,6 +466,9 @@ textarea.form-control {
 	color: #464545;
 	margin: 0px 0px 5px;
 	letter-spacing: normal;
+}
+.text_ua{
+	line-height: 27px;
 }
 .right_pict,
 .left_text{
@@ -731,7 +735,7 @@ textarea.form-control {
 }
 .charact li{
 	border-right: 1px solid #464545;
-	padding: 15px 20px;
+	padding: 3% 3.5%;
 	color: #464545;
 	font-family: Garamond;
 	font-size: 17px;
