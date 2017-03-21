@@ -737,10 +737,11 @@ textarea.form-control {
 	font-size: 17px;
 	font-weight: 400;
 }
-.charact li:nth-child(4){
+.fix .charact li:nth-child(4){
 	border: none;
 }
-.charact li:nth-child(5){
+.fix .charact li:nth-child(5){
+	border: none;
 	border: 1px solid #be6411;
 }
 .fix{
