@@ -116,6 +116,9 @@ ul{
 	max-width: 16px;
 	max-height: 15px;
 }
+.title_serv{
+	padding-bottom: 20px;
+}
 
 /* ---------------------------------------------- /*
  * Reset border-radius
@@ -739,7 +742,7 @@ textarea.form-control {
    		 transform: translate(0px,-28px);
 }
 .charact li{
-	padding: 3% 3.5%;
+	padding: 2.5% 3.5%;
 	color: #464545;
 	font-family: Garamond;
 	font-size: 17px;
@@ -764,7 +767,12 @@ textarea.form-control {
 	color: #ffffff;
 	font-family: 'Didona';
 	font-size: 22px;
-	font-weight: normal
+	font-weight: normal;
+	-webkit-flex: 1;
+	-moz-flex: 1;
+	-ms-flex: 1;
+	-o-flex: 1;
+	flex: 1;
 }
 
 /*--------------------------------*/
@@ -787,12 +795,9 @@ textarea.form-control {
 		box-shadow: none;
 	}
 	.fix .charact li{
-		padding: 3% 3% ;
+		padding: 2% 3% ;
 	}
-	.btn_pdf{
-		display: inline-block;
-	}
-	.btn_pdf a{
+	.charact li a{
 		vertical-align: middle;
 		vertical-align: -webkit-baseline-middle;
 	}
@@ -840,9 +845,6 @@ textarea.form-control {
 	.fix .charact li{
 		border-bottom: 1px solid #e8ebf4;
 		border-right: none;
-	}
-	.btn_pdf{
-		display: block;
 	}
 	.copyright{
 		text-align: center;
