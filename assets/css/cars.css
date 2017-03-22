@@ -20,7 +20,8 @@ a {
 	color: #ffffff;
 }
 
-a:hover {
+a:hover,
+a:focus {
 	text-decoration: none;
 	color: #999;
 }
@@ -781,7 +782,15 @@ textarea.form-control {
 /*--------------------------------*/
 /***** Adaptive *****/
 /*--------------------------------*/
-
+@media screen and (max-width: 1199px){
+	.btn_block{
+    -webkit-transform: translate(0px, 100px);
+       -moz-transform: translate(0px, 100px);
+        -ms-transform: translate(0px, 100px);
+         -o-transform: translate(0px, 100px);
+            transform: translate(0px, 100px);
+}
+}
 @media screen and (max-width: 1024px){
 	.contact_inf{
 		padding-left: 45px;
@@ -821,6 +830,6 @@ textarea.form-control {
 		    -ms-transform: none;
 		     -o-transform: none;
 		        transform: none;
-	    padding-top: 10px;
+	    padding: 20px;
 	}
 }
