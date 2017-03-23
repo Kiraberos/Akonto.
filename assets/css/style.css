@@ -743,7 +743,7 @@ textarea.form-control {
    		 transform: translate(0px,-28px);
 }
 .charact li{
-	padding: 15px 20px;
+	padding: 2.5% 3.5%;
 	color: #464545;
 	font-family: Garamond;
 	font-size: 17px;
@@ -796,7 +796,7 @@ textarea.form-control {
 		box-shadow: none;
 	}
 	.fix .charact li{
-		padding: 15px 15px;
+		padding: 2% 3%;
 	}
 	.charact li a{
 		vertical-align: middle;
